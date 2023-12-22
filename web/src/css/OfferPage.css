@@ -1,0 +1,32 @@
+.offer-page-container {
+  background: linear-gradient(
+    to bottom,
+    #333,
+    #000
+  ); /* Gray-black background combination */
+  color: white;
+  padding: 40px;
+}
+
+.heading {
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.offering-card {
+  width: 300px;
+  margin: 20px;
+  background-color: #222; /* Dark gray background for each card */
+  color: white;
+}
+
+.offering-card img {
+  height: 200px; /* Adjust the height of the image */
+  object-fit: cover;
+}
